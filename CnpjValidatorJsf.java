@@ -1,11 +1,5 @@
 package br.com.infox.treinamento.trainee.pessoajuridica;
 
-
-/*
-realiza a validação via interface JSF da aplicação CNPJ. 
-*/
-
-
 import java.util.logging.Logger;
 
 import javax.faces.application.FacesMessage;

@@ -1,9 +1,5 @@
 package br.com.infox.treinamento.trainee.pessoajuridica;
 
-/*
-introdução do validator CNPJ
-*/
-
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.ElementType.PARAMETER;

@@ -1,12 +1,5 @@
 package br.com.infox.treinamento.trainee.pessoajuridica;
 
-
-/*
-Como o próprio nome da Classe sugere, ela é responsável por realizar a conversão dos objetos
-booleanos para string. 
-*/
-
-
 import java.util.logging.Logger;
 
 import javax.faces.component.UIComponent;
@@ -14,7 +7,7 @@ import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 
-@FacesConverter("pessoajuridica.CnpjConverter")
+@FacesConverter("pessoafisica.CnpjConverter")
 public class CnpjConverter implements Converter {
 	private static final Logger LOG = Logger.getLogger("trainee.converters");
 	@Override
